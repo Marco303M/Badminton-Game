@@ -1,0 +1,86 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.level-sub-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 15px;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.gioco {
+  background-image: url(images/campo-temp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.copy{
+  color: #FEF2BF;
+}
+
+.red {
+  background-color: red;
+  background-image: url(images/right.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 10rem;
+}
+
+.green {
+  background-color: green;
+  background-image: url(images/smash.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blue {
+  background-color: lightblue;
+  background-image: url(images/clear.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.yellow {
+  background-color: yellow;
+  background-image: url(images/left.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 2rem;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}

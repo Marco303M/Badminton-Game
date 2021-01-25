@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Badminton Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1 class="level-sub-title">Memorizza la sequenza e riproducila dall'inizio!</h1>
+  <h2 class="level-sub-title">(Premi i pulsanti col mouse o sulla tastiera)</h2>
+  <h1 id="level-title">Press Enter to Start</h1>
+
+  <div class="container">
+
+    <div class="row gioco" id="gioco">
+
+      <div class="row">
+        <div type="button" id="green" class="btn green">
+          <h2>W</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div type="button" id="yellow" class="btn yellow">
+          <h2>A</h2>
+        </div>
+
+        <div type="button" id="red" class="btn red">
+          <h2>D</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div type="button" id="blue" class="btn blue">
+          <h2>S</h2>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <p><span class="copy">© 2021 3M</span></p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="game.js" charset="utf-8"></script>
+</body>
+
+</html>
